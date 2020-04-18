@@ -75,3 +75,21 @@ body {
     background: #fff;
     z-index: 10;
 }
+
+.mn::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #fff;
+    z-index: 11;
+}
+
+.sc::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    background: #fff;
+    z-index: 12;
+}
