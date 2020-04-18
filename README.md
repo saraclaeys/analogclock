@@ -1,2 +1,4 @@
 # analogclock
-Beginner JavaScript Projects 5/8 
+Beginner JavaScript Projects 5/8 <br>
+Analog Clock <br>
+Difficulty: Medium
