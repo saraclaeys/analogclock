@@ -4,12 +4,26 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #00A368;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 5%;
+    color: #fff;
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .clock {
@@ -30,7 +44,7 @@ body {
     width: 15px;
     height: 15px;
     background: #fff;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     z-index: 9999;
     border-radius: 50%;
 }
