@@ -18,7 +18,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #00A368;
     border-radius: 50%;
-    border: 20px solid #fff;
+    border: 5px solid #fff;
+}
+
+.clock::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border: 2px solid #fff;
+    z-index: 9999;
+    border-radius: 50%;
 }
