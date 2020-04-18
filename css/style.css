@@ -89,7 +89,7 @@ body {
     content: '';
     position: absolute;
     width: 2px;
-    height: 90px;
-    background: #fff;
+    height: 150px;
+    background: #000;
     z-index: 12;
 }
